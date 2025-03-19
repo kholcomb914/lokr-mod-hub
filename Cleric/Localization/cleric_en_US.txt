@@ -5,7 +5,7 @@
 
 "SKILL_cleric_whack_NAME" = "Whack"
 "SKILL_cleric_whack_DESCRIPTION" = "Strikes the target, dealing physical damage."
-"SKILL_cleric_whack_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Gains temporary extra armor for executing the attack without moving."
+"SKILL_cleric_whack_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Gains temporary extra armor for slaying an enemy with this attack."
 "SKILL_cleric_whack_DESCRIPTION_DATA" = "Damage: <style="rangeofdamage">{MinDamage} - {MaxDamage} {icon#damagePhysical}</style>\nEpic Armor: <style="buff">+{extraArmor} {icon#statArmor}</style>\nRange: <style="highlight">MELEE</style>"
 
 "SKILL_cleric_unshakable_NAME" = "Unshakable"
@@ -19,10 +19,12 @@
 
 "SKILL_cleric_salvation_NAME" = "Salvation"
 "SKILL_cleric_salvation_DESCRIPTION" = "Prays for a miracle, reducing the attack damage stat of enemies in a targeted area to 1 for 1 turn."
-"SKILL_cleric_salvation_DESCRIPTION_DATA" = "Duration: <style="highlight">{duration}</style> {icon#turns}\nRange: <style="highlight">{AbilityCastRange}</style>"
+"SKILL_cleric_salvation_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Increased duration if the Cleric has the <style="highlight">Communion</style> buff."
+"SKILL_cleric_salvation_DESCRIPTION_DATA" = "Duration: <style="highlight">{duration}</style> {icon#turns}\nEPIC duration: <style="highlight">{extraDuration} {icon#turns}</style>\nRange: <style="highlight">{AbilityCastRange}</style>"
 
 "SKILL_cleric_providence_NAME" = "Providence"
 "SKILL_cleric_providence_DESCRIPTION" = "The Cleric rejuvenates surrounding allies with a holy blessing, recharging their ability cooldowns."
+"SKILL_cleric_providence_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Reapplies the <style="highlight">Communion</style> buff to allies that already have the buff."
 "SKILL_cleric_providence_DESCRIPTION_DATA" = "Cooldown Reduction: <style="highlight">{cooldownOffset}</style> {icon#turns}\nRange: <style="highlight">SELF</style>"
 
 "SKILL_cleric_divine_intervention_NAME" = "Divine Intervention"
