@@ -1,10 +1,10 @@
 "cleric_smite"
 {
-    "AbilityBehavior"               "UNIT_TARGET"
+    "AbilityBehavior"               "UNIT_TARGET | DOESNT_CONSUME_MOVE | FAKE_ACTION"
     "AbilityTeamFilter"             "TEAM_ENEMY"
     "AbilityCastRange"              "stat(%CASTER, #rangedAttackRange)"
     "AbilityCooldown"               "4"
-    "AbilityAPCost"                 "2"
+    "AbilityAPCost"                 "0"
 
     "AnimationID"                   "SpellCastB"
     "CastFXId"                      "GenericHolyCastFXMega"

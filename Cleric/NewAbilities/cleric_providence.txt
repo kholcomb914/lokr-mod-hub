@@ -19,16 +19,21 @@
      "AbilitySpecial"
     {
         "01"
-		{
-			"var_type"			"FIELD_FLOAT"
-			"cooldownOffset"	"1"
-		}
+        {
+            "var_type"          "FIELD_FLOAT"
+            "cooldownOffset"    "1"
+        }
 
         "02"
         {
             "var_type"          "FIELD_FLOAT"
             "aoeRadius"         "1"
-        }        
+        }
+        "03"
+        {
+            "var_type"          "FIELD_FLOAT"
+            "duration"          "2"
+        }       
     }
 
 
@@ -46,18 +51,46 @@
             "IteratorName" "#newTarget"
         
             "Actions"    
-            {				
+            {               
                "OffsetCooldown"
                 {
-                    "Target" 		"%newTarget"
-                    "Offset" 		"0-%cooldownOffset"
+                    "Target"        "%newTarget"
+                    "Offset"        "0-%cooldownOffset"
                 }
-				
-				"UnitRaiseMessage"
+                
+                "UnitRaiseMessage"
                 {
-                    "Unit" 		"%newTarget"
-                    "#Text" 	"REPLENISHED!!"
-                    "Icon" 		"Preparation"
+                    "Unit"      "%newTarget"
+                    "#Text"     "REPLENISHED!!"
+                    "Icon"      "Preparation"
+                }
+
+                "Conditional"
+                {
+                    "Condition" "hasModifier(%TARGET, #modifier_communion)"
+                    
+                    "Actions"
+                    {
+                        "ApplyModifier"
+                        {
+                            "ModifierName"      "modifier_communion"
+                            "Target"            "%TARGET"
+                            "Duration"          "%duration"
+
+                            "Params"
+                            {
+                                "ally_damage" 
+                                {
+                                    "type"      "FIELD_FLOAT"
+                                    "value"     "expr(%DamageAlly)"
+                                }
+                            }
+                        }
+
+                        "MarkHitLegendary"
+                        {
+                        }
+                    }
                 }
             }
 
