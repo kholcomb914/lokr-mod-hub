@@ -5,7 +5,7 @@
 
 "SKILL_cleric_whack_NAME" = "Whack"
 "SKILL_cleric_whack_DESCRIPTION" = "Strikes the target, dealing physical damage."
-"SKILL_cleric_whack_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Gains temporary extra armor for slaying an enemy with this attack."
+"SKILL_cleric_whack_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Gains temporary extra armor for executing the attack without moving."
 "SKILL_cleric_whack_DESCRIPTION_DATA" = "Damage: <style="rangeofdamage">{MinDamage} - {MaxDamage} {icon#damagePhysical}</style>\nEpic Armor: <style="buff">+{extraArmor} {icon#statArmor}</style>\nRange: <style="highlight">MELEE</style>"
 
 "SKILL_cleric_unshakable_NAME" = "Unshakable"
