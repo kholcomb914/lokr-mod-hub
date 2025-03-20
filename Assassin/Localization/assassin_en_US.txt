@@ -1,5 +1,5 @@
 "UNIT_MINION_ASSASSIN_NAME_0001" = "Assassin"
-"UNIT_MINION_ASSASSIN_LORE" = "Stealthy, agile, and deadly, the assassin is the ultimate killing machine. ."
+"UNIT_MINION_ASSASSIN_LORE" = "Stealthy, agile, and deadly, the assassin is the ultimate killing machine."
 
 
 "SKILL_assassin_lethal_strike_NAME" = "Lethal Strike"
