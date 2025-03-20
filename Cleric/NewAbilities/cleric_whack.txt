@@ -24,8 +24,8 @@
         }
 		"03"
         {
-            "var_type"                  "FIELD_FLOAT"
-            "extraArmor"                "2"
+            "var_type"                  "FIELD_EXPRESSION"
+            "extraArmor"                "1+stat(%CASTER, #level)"
         }
 
         "04"
@@ -87,7 +87,7 @@
 
             "PropertiesAdd"
             {
-                "armor_max"             "%extraArmor"
+                "armor_max"             "1+stat(%TARGET, #level)"
             }
 
             "OnAdded"
@@ -95,7 +95,7 @@
                 "GiveArmor"
                 {
                     "Target"            "%TARGET"
-                    "ArmorAmount"       "%extraArmor"
+                    "ArmorAmount"       "1+stat(%TARGET, #level)"
                 }
             }
 

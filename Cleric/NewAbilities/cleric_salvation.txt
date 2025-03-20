@@ -36,6 +36,11 @@
             "var_type"      "FIELD_FLOAT"
             "duration"      "1"
         }
+        "04"
+        {
+            "var_type"      "FIELD_FLOAT"
+            "extraDuration"      "2"
+        }
     }
 
 
@@ -56,11 +61,33 @@
         
             "Actions"    
             {
-                "ApplyModifier"
+                "Conditional"
                 {
-                    "ModifierName"      "modifier_cleric_salvation"
-                    "Target"            "%newTarget"
-                    "Duration"          "%duration"
+                    "Condition" "hasModifier(%CASTER, #modifier_communion_self)"
+
+                    "Actions" 
+                    {
+                        "ApplyModifier"
+                        {
+                            "ModifierName"      "modifier_cleric_salvation"
+                            "Target"            "%newTarget"
+                            "Duration"          "%extraDuration"
+                        }
+
+                        "MarkHitLegendary"
+                        {
+                        }
+                    }
+
+                    "ElseActions"
+                    {
+                        "ApplyModifier"
+                        {
+                            "ModifierName"      "modifier_cleric_salvation"
+                            "Target"            "%newTarget"
+                            "Duration"          "%duration"
+                        }
+                    }                   
                 }
             }
         }

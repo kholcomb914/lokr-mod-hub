@@ -1,6 +1,6 @@
 "assassin_counterattack"
 {
-    "AbilityBehavior"       "UNIT_TARGET | POSITIVE_EFFECT | DOESNT_CONSUME_MOVE | FAKE_ACTION"
+    "AbilityBehavior"       "UNIT_TARGET | POSITIVE_EFFECT"
     "AbilityTeamFilter"     "TEAM_FRIENDLY"
 
     "AnimationID"           "SpellCastB"
