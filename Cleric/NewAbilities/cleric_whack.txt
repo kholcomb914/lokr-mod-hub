@@ -58,7 +58,7 @@
             {
                 "Conditional"
                 {
-                    "Condition"     "stat(%CASTER, #walkSpeedUsed)==0"
+                    "Condition"     "Condition" "equal(%INSTIGATOR, %TARGET) && matchesGroup(unitGroup(%DEAD), @UnitGroup(BadSide)) && not(isOnState(%DEAD, #NO_SKULL)) && not(isOnState(%DEAD, #IS_CINEMATIC))"
 
                     "Actions" 
                     {
