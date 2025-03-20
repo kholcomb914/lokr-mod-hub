@@ -23,7 +23,7 @@
 "SKILL_cleric_salvation_DESCRIPTION_DATA" = "Duration: <style="highlight">{duration}</style> {icon#turns}\nEPIC duration: <style="highlight">{extraDuration} {icon#turns}</style>\nRange: <style="highlight">{AbilityCastRange}</style>"
 
 "SKILL_cleric_providence_NAME" = "Providence"
-"SKILL_cleric_providence_DESCRIPTION" = "The Cleric rejuvenates surrounding allies with a holy blessing, recharging their ability cooldowns."
+"SKILL_cleric_providence_DESCRIPTION" = "The Cleric rejuvenates himself and surrounding allies with a holy blessing, recharging their ability cooldowns."
 "SKILL_cleric_providence_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Reapplies the <style="highlight">Communion</style> buff to allies that already have the buff."
 "SKILL_cleric_providence_DESCRIPTION_DATA" = "Cooldown Reduction: <style="highlight">{cooldownOffset}</style> {icon#turns}\nRange: <style="highlight">SELF</style>"
 
