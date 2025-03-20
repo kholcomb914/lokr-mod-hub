@@ -9,7 +9,7 @@
 "SKILL_cleric_whack_DESCRIPTION_DATA" = "Damage: <style="rangeofdamage">{MinDamage} - {MaxDamage} {icon#damagePhysical}</style>\nEpic Armor: <style="buff">+{extraArmor} {icon#statArmor}</style>\nRange: <style="highlight">MELEE</style>"
 
 "SKILL_cleric_unshakable_NAME" = "Unshakable"
-"SKILL_cleric_unshakable_DESCRIPTION" = "The Cleric demonstrates his unwavering faith by standing still, gaining extra armor until his next turn if he does not move."
+"SKILL_cleric_unshakable_DESCRIPTION" = "The Cleric demonstrates his unwavering faith by standing still, gaining extra armor and becoming immune to knockback until his next turn if he does not move."
 "SKILL_cleric_unshakable_DESCRIPTION_DATA" = "Bonus Armor: <style="buff">+{extraArmor} {icon#statArmor}</style>"
 
 "SKILL_cleric_communion_NAME" = "Communion"
