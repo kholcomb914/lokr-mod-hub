@@ -87,7 +87,7 @@
 
             "PropertiesAdd"
             {
-                "armor_max"             "%extraArmor"
+                "armor_max"             "1+stat(%TARGET, #level)"
             }
 
             "OnAdded"

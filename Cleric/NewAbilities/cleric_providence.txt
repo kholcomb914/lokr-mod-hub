@@ -33,6 +33,11 @@
         {
             "var_type"          "FIELD_FLOAT"
             "duration"          "2"
+        }
+        "04"
+        {
+            "var_type"              "FIELD_EXPRESSION"
+            "DamageAlly"            "ceil(stat(%CASTER, #level)/2)"
         }       
     }
 
@@ -67,14 +72,20 @@
 
                 "Conditional"
                 {
-                    "Condition" "hasModifier(%TARGET, #modifier_communion)"
+                    "Condition" "hasModifier(%newTarget, #modifier_communion)"
                     
                     "Actions"
                     {
+                        "RemoveModifier"
+                        {
+                            "ModifierName"      "modifier_communion"
+                            "Target"            "%newTarget"
+                        }
+
                         "ApplyModifier"
                         {
                             "ModifierName"      "modifier_communion"
-                            "Target"            "%TARGET"
+                            "Target"            "%newTarget"
                             "Duration"          "%duration"
 
                             "Params"
@@ -89,9 +100,11 @@
 
                         "MarkHitLegendary"
                         {
+                            "Unit"      "%newTarget"
                         }
                     }
                 }
+
             }
 
         }

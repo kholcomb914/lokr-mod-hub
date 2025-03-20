@@ -54,6 +54,13 @@
                     "Duration"          "%duration"
                 }
 
+                "ApplyModifier"
+                {
+                    "ModifierName"      "stoic_stance_trait_modifier"
+                    "Target"            "%TARGET"
+                    "Duration"          "%duration"
+                }
+
                 "RemoveModifier"
                 {
                     "ModifierName"      "cleric_unshakable_monitor_modifier"
@@ -90,6 +97,16 @@
                     "Target"            "%TARGET"
                     "ArmorAmount"       "%extraArmor"
                 }
+            }
+        }
+
+        "stoic_stance_trait_modifier"
+        {
+            "Passive" "1"
+
+            "States"
+            {
+                "CANT_BE_KNOCKED_BACK" "1"
             }
         }
     }
