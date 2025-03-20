@@ -20,7 +20,7 @@
 						
 		"health_max" 			"5"
 		"armor_max" 			"4"
-		"armor_regen_per_turn" 	"1"
+		"armor_regen_per_turn" 	"0"
 		"baseDamage"  			"4"
 		"holyPoints"			"0"
 		"armor_gain_passTurn" 	"0"
@@ -87,7 +87,7 @@
 						
 		"health_max" 			"6"
 		"armor_max" 			"5"
-		"armor_regen_per_turn" 	"1"
+		"armor_regen_per_turn" 	"0"
 		"baseDamage"  			"4"
 		"holyPoints"			"0"
 		
@@ -109,7 +109,7 @@
 						
 		"health_max" 			"8"
 		"armor_max" 			"5"
-		"armor_regen_per_turn" 	"2"
+		"armor_regen_per_turn" 	"0"
 		"baseDamage"  			"5"
 		"holyPoints"			"0"
 		"armor_gain_passTurn" 	"0"
