@@ -1,5 +1,7 @@
 "UNIT_MINION_NECROMANCER_NAME_0001" = "Necromancer"
-"UNIT_MINION_NECROMANCER_LORE" = "Sulfur and rot trails in their wake, these dark wizards are no stranger to death. Although they are shunned for their practices, they have emerged to fight beyond their last breath."
+"UNIT_MINION_NECROMANCER_LORE" = "Sulfur and rot trails in their wake; these dark wizards are no strangers to death. Though they are shunned for their practices, they have emerged to fight beyond their last breath against the forces of darkness."
+
+"UNIT_SUMMON_SKELETON_NAME_" = "Skeleton Summon"
 
 
 "SKILL_necro_bolt_of_sickness_NAME" = "Bolt of Sickness"

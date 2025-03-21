@@ -6,7 +6,7 @@
     "AbilityCastMinRange"   "stat(%CASTER, #rangedAttackMinRange)"
     "AbilityCooldown"       "2"
     "AbilityAPCost"         "1"
-    "AnimationID"           "Attack"
+    "AnimationID"           "SpecialAttack"
     "CastFXId"              "ArrowOfSorrowCastFXMega"
     "Icon"                  "BanditRangedAttack"
 

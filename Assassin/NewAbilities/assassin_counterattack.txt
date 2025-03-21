@@ -81,7 +81,7 @@
         "assassin_counterattack_modifier"
         {
             "Tags"              "shield"
-            "EffectName"        "AsraSpiderStanceStatusFXMega"
+            "EffectName"        "CleaverParryStanceStatusFXMega"
             "Icon"              "ParryStance"
             "IconPriority"      "50"
 
@@ -116,7 +116,7 @@
 		"assassin_counterattack_epic_modifier"
 		{
             "Tags"              "shield"
-            "EffectName"        "ParryStanceFXMega"
+            "EffectName"        "CleaverParryStanceStatusFXMega"
             "Icon"              "Enraged01"
             "IconPriority"      "50"
 

@@ -1,4 +1,4 @@
-"UNIT_HIGH_ENCHANTRESS_LORE" = "Plagued by the dark magic her people have exploited, this Ashervan seeks to use her powers against evil."
+"UNIT_HIGH_ENCHANTRESS_LORE" = "Plagued by the dark magic their people have exploited, a small group of Enchantresses seek to use their powers to combat the evil that has consumed their home."
 
 
 "SKILL_high_enchantress_sylvan_bolt_NAME" = "Sylvan Bolt"
