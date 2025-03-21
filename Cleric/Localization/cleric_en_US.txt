@@ -5,7 +5,7 @@
 
 "SKILL_cleric_whack_NAME" = "Whack"
 "SKILL_cleric_whack_DESCRIPTION" = "Strikes the target, dealing physical damage."
-"SKILL_cleric_whack_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Gains temporary extra armor for slaying an enemy with this attack."
+"SKILL_cleric_whack_DESCRIPTION_EPIC" = "<style="epic">EPIC:</style> Gains temporary extra armor for executing the attack without moving."
 "SKILL_cleric_whack_DESCRIPTION_DATA" = "Damage: <style="rangeofdamage">{MinDamage} - {MaxDamage} {icon#damagePhysical}</style>\nEpic Armor: <style="buff">+{extraArmor} {icon#statArmor}</style>\nRange: <style="highlight">MELEE</style>"
 
 "SKILL_cleric_unshakable_NAME" = "Unshakable"
@@ -34,7 +34,7 @@
 
 "SKILL_cleric_smite_NAME" = "Smite"
 "SKILL_cleric_smite_DESCRIPTION" = "Calls upon the wrath of the heavens centered around a targeted enemy, hitting it twice and many enemies up to 3 hexes away from the target once with divine lightning."
-"SKILL_cleric_smite_DESCRIPTION_DATA" = "Damage: <style="damage">{damage} {icon#damageTrue}</style>\nNumber of Bolts: <style="highlight">{numberOfHits}</style>\nAOE size: <style="highlight">{maxDistance}</style>"
+"SKILL_cleric_smite_DESCRIPTION_DATA" = "Damage: <style="damage">{damage} {icon#damageTrue}</style>\nNumber of Bolts: <style="highlight">{numberOfHits}</style>\nAOE size: <style="highlight">{aoeRadius}</style>"
 "SKILL_cleric_smite_DESCRIPTION_EXTRA" = "<style="extra">This skill will not repeat targets.</style>"
 
 
