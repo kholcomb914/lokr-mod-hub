@@ -1,10 +1,17 @@
 "cleric_smite"
 {
-    "AbilityBehavior"               "UNIT_TARGET"
+    "AbilityBehavior"               "UNIT_TARGET | AOE"
     "AbilityTeamFilter"             "TEAM_ENEMY"
+
     "AbilityCastRange"              "stat(%CASTER, #rangedAttackRange)"
     "AbilityCooldown"               "4"
     "AbilityAPCost"                 "2"
+
+    "AbilityAOEKind" "RANGE_CIRCLE"
+    "AbilityAOETeamFilter"  "TEAM_ENEMY"
+    "AbilityAOECenterOnCaster" "0"
+    "AbilityAOEAffectsCaster" "1"
+    "AbilityAOERange" "%aoeRadius"
 
     "AnimationID"                   "SpellCastB"
     "CastFXId"                      "GenericHolyCastFXMega"
@@ -27,7 +34,7 @@
         "03"
         {
             "var_type"              "FIELD_FLOAT"        
-            "maxDistance"           "3"
+            "aoeRadius"           "3"
         }
     }
 
@@ -74,7 +81,7 @@
                             "Target"
                             {
                                 "Center"        "%TARGET"
-                                "Radius"        "%maxDistance"
+                                "Radius"        "%aoeRadius"
                                 "Teams"         "TEAM_ENEMY"
                                 "Random"        "1"
                                 "MaxTargets"    "expr(%numberOfHits)"
@@ -87,7 +94,7 @@
                                 "Hit"
                                 {
                                     "Target"            "%newTarget"
-                                    "Tags"              "stringList(#PROJECTILE, #TARGETED)"
+                                    "Tags"              "stringList(#PROJECTILE, #TARGETED, #AOE)"
                                     "EffectName"        "TeslaThunderStrikeHitFXMega"
 
                                     "InitActions"
